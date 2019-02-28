@@ -115,6 +115,11 @@ export default {
     overflow: auto;
   }
 
+  :not(pre)>code[class*=language-] {
+    font-size: 14px;
+    color: #bd93f9;
+  }
+
   @media screen and (max-width: 540px) {
     #wrapper {
       max-width: 600px;
