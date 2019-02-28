@@ -6,7 +6,7 @@
           <h2 v-html="node.title"/>
           <aside class="dates" v-html="node.date"/>
         </router-link>
-        <div v-html="node.description"/>
+        <div class="description" v-html="node.description"/>
       </li>
     </ul>
   </Layout>
@@ -64,14 +64,7 @@
     line-height: 1.5;
   }
 
-  /* ul .dates {
-    float: right;
-    position: relative;
-    top: 1px;
-    font: "Helvetica Neue", helvetica, Arial, sans-serif;
-    font-weight: 300;
-    line-height: 1.8;
-    font-size: 17px;
-    border: 1px solid yellow;
-  } */
+  .description {
+    color: #b2b9be;
+  }
 </style>
