@@ -114,16 +114,7 @@ export default {
     border-radius: 4px;
     overflow: auto;
   }
-  
-  pre language-* {
-    font-size: 11px;
-    font-weight: 100;
-    padding: 4px;
-    border: none;
-    border-radius: 4px;
-    overflow: scroll;
-    font-family: 'Menlo', 'Monaco', Courier, monospace;
-  }
+
   @media screen and (max-width: 540px) {
     #wrapper {
       max-width: 600px;
