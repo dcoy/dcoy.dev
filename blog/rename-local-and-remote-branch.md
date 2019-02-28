@@ -2,7 +2,7 @@
 title: Rename local and remote branch
 date: 2019-02-26
 description: "Fix your bad branch for great good"
-image: "./images/sergei-akulich-457851-unsplash.jpg"
+image: "https://images.unsplash.com/photo-1457369433242-bd0dbcec0b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
 slug: rename-local-and-remote-branch
 ---
 
